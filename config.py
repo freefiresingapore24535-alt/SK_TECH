@@ -18,19 +18,19 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", "")) #Your API ID from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "") #Your API Hash from my.telegram.org
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8384563428:AAE7fO9vcs-NCaekG11ngt8o5si79zO_hlg")
+APP_ID = int(os.environ.get("APP_ID", "22128383")) #Your API ID from my.telegram.org
+API_HASH = os.environ.get("API_HASH", "7992b5c5c9c6d34276c3dce9e46ba879") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "")) #Your db channel Id
-OWNER = os.environ.get("OWNER", "") # Owner username without @
-OWNER_ID = int(os.environ.get("OWNER_ID", "")) # Owner id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003494765620")) #Your db channel Id
+OWNER = os.environ.get("OWNER", "Minato_Sencie") # Owner username without @
+OWNER_ID = int(os.environ.get("OWNER_ID", "5960133511")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
-DB_URI = os.environ.get("DATABASE_URL", "")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluooo")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Rei061:Rei061@cluster0.pmn26.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "SkTech")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/spk_links")
@@ -41,11 +41,11 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b
 
 #--------------------------------------------
 # Enable or Disable Verify Mode
-VERIFY_MODE = os.environ.get("VERIFY_MODE", "False").lower() == "true"
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
+VERIFY_MODE = os.environ.get("VERIFY_MODE", "True").lower() == "true"
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "vplink.in")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "8a97662a9011593aca4eba9e00a5b93b5267b21c")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 21600)) # Add time in seconds
-TUT_VID = os.environ.get("TUT_VID","")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/Naruto_backup_1/9")
 
 #--------------------------------------------
 
@@ -127,7 +127,7 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 #==========================(BUY PREMIUM)====================#
 
 OWNER_TAG = os.environ.get("OWNER_TAG", "@Subho5995")
-UPI_ID = os.environ.get("UPI_ID", "")
+UPI_ID = os.environ.get("UPI_ID", "hd hehe")
 QR_PIC = os.environ.get("QR_PIC", "https://telegra.ph/file/3e83c69804826b3cba066-16cffa90cd682570da.jpg")
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"@CallOwner_Bot")
 #--------------------------------------------
